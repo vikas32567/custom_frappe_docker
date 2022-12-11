@@ -7,7 +7,6 @@ COPY repos ../apps
 
 USER root
 
-RUN install-app castlecraft && \
-    install-app microsoft_integration
+RUN install-app press
 
 USER frappe
